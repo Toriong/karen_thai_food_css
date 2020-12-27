@@ -16,7 +16,8 @@ div {
   text-transform: capitalize;
 }
 
-p {
+p,
+a {
   color: #a9a937;
 }
 #indent {
@@ -35,42 +36,74 @@ table {
   margin-right: auto;
 }
 
-#indent_meat_choice {
-  text-indent: 40px;
+#move_meat_choice {
+  text-indent: 135px;
 }
 
-#move_price_left {
+#move_price_ {
   text-indent: -350px;
-}
-
-#move_price_up {
-  padding-bottom: 100px;
 }
 
 td {
   padding-top: 15px;
 }
 
-#move_beef_left {
-  text-indent: -90px;
+#move_beef_ {
+  text-indent: -280px;
 }
 
-#move_chicken_left {
-  text-indent: -80px;
+#move_chicken_ {
+  text-indent: 5px;
 }
 
-#move_pork_right {
+#move_pork_ {
+  text-indent: -40px;
+}
+
+#move_goat_ {
+  text-indent: -155px;
+}
+
+.move_sizes_ {
+  text-indent: -190px;
+}
+
+.move_beef_prices_ {
+  text-indent: -278px;
+}
+
+.move_goat_prices_ {
+  text-indent: -155px;
+}
+
+.move_pork_prices_ {
+  text-indent: -40px;
+}
+
+.move_chicken_prices_ {
   text-indent: 10px;
 }
 
-#move_goat_right {
-  text-indent: 18px;
+#meat_padding {
+  padding: 50px 50px;
 }
 
-.move_sizes_left {
-  text-indent: -200px;
+#move_ss {
+  text-indent: -198px;
 }
 
-.move_beef_prices_left {
-  text-indent: -230px;
+#table_border {
+  background: #a9a937;
+  border-style: solid;
+  padding: 20px 40px 20px 90px;
+  border-radius: 20px;
+}
+
+li {
+  display: list-item;
+  padding: 10px 30px;
+}
+
+.none {
+  text-decoration: none;
 }
