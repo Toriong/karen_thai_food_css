@@ -1,0 +1,76 @@
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.heading_color {
+  color: #a9a937;
+}
+
+div {
+  text-transform: uppercase;
+  color: red;
+}
+
+#title {
+  text-transform: capitalize;
+}
+
+p {
+  color: #a9a937;
+}
+#indent {
+  text-indent: 50px;
+}
+
+.indent_for_contacts {
+  text-indent: 50px;
+}
+
+h1 {
+  text-indent: 60px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#indent_meat_choice {
+  text-indent: 40px;
+}
+
+#move_price_left {
+  text-indent: -350px;
+}
+
+#move_price_up {
+  padding-bottom: 100px;
+}
+
+td {
+  padding-top: 15px;
+}
+
+#move_beef_left {
+  text-indent: -90px;
+}
+
+#move_chicken_left {
+  text-indent: -80px;
+}
+
+#move_pork_right {
+  text-indent: 10px;
+}
+
+#move_goat_right {
+  text-indent: 18px;
+}
+
+.move_sizes_left {
+  text-indent: -200px;
+}
+
+.move_beef_prices_left {
+  text-indent: -230px;
+}
