@@ -1,3 +1,4 @@
+/* CSS code for the normal table. This is the file that I'll use for now on for this project. */
 .center {
   text-align: center;
   list-style-position: inside;
@@ -7,9 +8,25 @@
   color: #a9a937;
 }
 
+#indent_me {
+  text-indent: 50px;
+}
+
+#indent_title {
+  text-indent: 50px;
+}
+
+.indent_contacts {
+  text-indent: 50px;
+}
+
 div {
   text-transform: uppercase;
   color: red;
+}
+
+h1 {
+  text-align: center;
 }
 
 #title {
@@ -20,84 +37,6 @@ p,
 a {
   color: #a9a937;
 }
-#indent {
-  text-indent: 50px;
-}
-
-.indent_for_contacts {
-  text-indent: 50px;
-}
-
-h1 {
-  text-indent: 60px;
-}
-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#move_meat_choice {
-  text-indent: 135px;
-}
-
-#move_price_ {
-  text-indent: -350px;
-}
-
-td {
-  padding-top: 15px;
-}
-
-#move_beef_ {
-  text-indent: -280px;
-}
-
-#move_chicken_ {
-  text-indent: 5px;
-}
-
-#move_pork_ {
-  text-indent: -40px;
-}
-
-#move_goat_ {
-  text-indent: -155px;
-}
-
-.move_sizes_ {
-  text-indent: -190px;
-}
-
-.move_beef_prices_ {
-  text-indent: -278px;
-}
-
-.move_goat_prices_ {
-  text-indent: -155px;
-}
-
-.move_pork_prices_ {
-  text-indent: -40px;
-}
-
-.move_chicken_prices_ {
-  text-indent: 10px;
-}
-
-#meat_padding {
-  padding: 50px 50px;
-}
-
-#move_ss {
-  text-indent: -198px;
-}
-
-#table_border {
-  background: #a9a937;
-  border-style: solid;
-  padding: 20px 40px 20px 90px;
-  border-radius: 20px;
-}
 
 li {
   display: list-item;
@@ -106,4 +45,21 @@ li {
 
 .none {
   text-decoration: none;
+}
+
+h3 {
+  color: #a9a937;
+}
+
+table,
+th,
+td {
+  border: 1px solid grey;
+  background-color: #a9a937;
+  padding: 10px;
+  border-width: initial;
+}
+
+#meat_option_title {
+  text-align: center;
 }
